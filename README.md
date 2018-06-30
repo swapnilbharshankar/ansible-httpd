@@ -15,21 +15,14 @@ ansible-playbook -i /etc/ansible/hosts -b playbook.yml
 ------------------------------------------------------------------------
 Directory Structure
 
-.
+
 ├── playbook.yml
-
 ├── README.md
-
 └── roles
-
-    └── http
-    
-        ├── defaults
-        
-        │   └── main.yml
-        
-        ├── files
-        
+    └── http    
+        ├── defaults        
+        │   └── main.yml        
+        ├── files        
         │   ├── index.html
         │   └── web.conf
         ├── handlers
