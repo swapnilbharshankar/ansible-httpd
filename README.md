@@ -16,7 +16,7 @@ ansible-playbook -i /etc/ansible/hosts -b playbook.yml
 Directory Structure
 
 
-├── playbook.yml
+.├── playbook.yml
 
 ├── README.md
 └── roles
