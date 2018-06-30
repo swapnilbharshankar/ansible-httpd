@@ -1,7 +1,8 @@
 # ansible-httpd
 Ansible script to configure httpd on server
 
-Steps to run the playbook.
+## Steps to run the playbook.
+
 1) add host entry in /etc/ansible/hosts file.
 
 [Apache]
