@@ -17,12 +17,19 @@ Directory Structure
 
 .
 ├── playbook.yml
+
 ├── README.md
+
 └── roles
+
     └── http
+    
         ├── defaults
+        
         │   └── main.yml
+        
         ├── files
+        
         │   ├── index.html
         │   └── web.conf
         ├── handlers
