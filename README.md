@@ -11,3 +11,29 @@ Steps to run the playbook.
 2) run the playbook
 
 ansible-playbook -i /etc/ansible/hosts -b playbook.yml
+
+------------------------------------------------------------------------
+Directory Structure
+.
+├── playbook.yml
+├── README.md
+└── roles
+    └── http
+        ├── defaults
+        │   └── main.yml
+        ├── files
+        │   ├── index.html
+        │   └── web.conf
+        ├── handlers
+        │   └── main.yml
+        ├── meta
+        ├── tasks
+        │   ├── main.yml
+        │   ├── section_1.yml
+        │   ├── section_2.yml
+        │   └── section_3.yml
+        ├── templates
+        └── vars
+
+9 directories, 10 files
+
