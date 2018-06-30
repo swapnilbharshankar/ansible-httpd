@@ -15,11 +15,9 @@ ansible-playbook -i /etc/ansible/hosts -b playbook.yml
 ------------------------------------------------------------------------
 Directory Structure
 
-
+```
 .├── playbook.yml
-
 ├── README.md
-
 └── roles
     └── http    
         ├── defaults        
@@ -39,4 +37,4 @@ Directory Structure
         └── vars
 
 9 directories, 10 files
-
+```
