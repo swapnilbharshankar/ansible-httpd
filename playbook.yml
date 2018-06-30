@@ -1,0 +1,5 @@
+---
+ - hosts: Apache
+   become: yes
+   roles: 
+     - http

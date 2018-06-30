@@ -1,0 +1,4 @@
+---
+ - include: section_1.yml
+ - include: section_2.yml
+ - include: section_3.yml
