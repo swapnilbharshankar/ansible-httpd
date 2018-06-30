@@ -2,5 +2,6 @@
  - name: copy index file
    become: yes
    copy: src=files/index.html dest=/var/www/html/index.html
+   when: httpd
    notify:
    - apache restart

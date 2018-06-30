@@ -2,3 +2,4 @@
  - name: copy httpd file
    become: yes
    copy: src=files/web.conf dest=/etc/httpd/conf.d/web.conf
+   when: httpd
